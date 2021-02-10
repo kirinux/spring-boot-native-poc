@@ -1,4 +1,4 @@
-package com.ing.payment.poc.springbootnativeimage;
+package org.craftedsw.kirin.poc.springbootnativeimage;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -19,7 +19,7 @@ public class PersonRepository {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(PersonRepository.class);
 
-    private static final String SQL_SELECT_PERSONID = "select FIRSTNAME, LASTNAME, BIRTHDATE from dev.person where ID = :cif";
+    private static final String SQL_SELECT_PERSONID = "select FIRSTNAME, LASTNAME, BIRTHDATE from person where ID = :cif";
     private final NamedParameterJdbcTemplate edlJdbcTemplate;
 
     public PersonRepository(NamedParameterJdbcTemplate edlJdbcTemplate) {

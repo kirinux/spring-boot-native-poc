@@ -1,4 +1,4 @@
-package com.ing.payment.poc.springbootnativeimage;
+package org.craftedsw.kirin.poc.springbootnativeimage;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RestControllerAdvice;

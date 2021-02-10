@@ -1,4 +1,4 @@
-package com.ing.payment.poc.springbootnativeimage;
+package org.craftedsw.kirin.poc.springbootnativeimage;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
